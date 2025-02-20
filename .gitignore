@@ -2,14 +2,13 @@
 node_modules/
 /.pnp
 .pnp.js
-CLAUDE.md
 
 # testing
 /coverage
 
 # production
 /build
-.claude
+CLAUDE.md
 
 # misc
 .DS_Store
@@ -17,7 +16,23 @@ CLAUDE.md
 .env.development.local
 .env.test.local
 .env.production.local
+.claude
 
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# editor
+.vscode/
+.idea/
+
+# build
+dist/
+*.tgz
+*.tar.gz
+
+# runtime
+*.pid
+*.seed
+*.log
